@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="70px" height="52px" viewBox="0 0 70 52" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Group 3</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop" transform="translate(-183.000000, -831.000000)" fill="#000000" fill-rule="nonzero">
+            <g id="Standard-Features" transform="translate(-29.000000, 700.000000)">
+                <g id="Group-3">
+                    <g transform="translate(212.000000, 131.000000)">
+                        <path d="M67.7894777,51.8 L67.7894777,51.7277696 L67.7894777,51.8 L0,51.8 L0,3.55271368e-15 L70,3.55271368e-15 L70,51.8 L67.7894777,51.8 Z M2.21052617,2.82153501 L2.21052617,24.4531794 L33.8947379,24.4531794 L33.8947379,2.82153501 L2.21052617,2.82153501 Z M36.1052641,2.82153501 L36.1052641,24.4531794 L67.7894777,24.4531794 L67.7894777,2.82153501 L36.1052641,2.82153501 Z M2.21052617,27.2745903 L2.21052617,48.9062346 L33.8947379,48.9062346 L33.8947379,27.2745903 L2.21052617,27.2745903 Z M36.1052641,27.2745903 L36.1052641,48.9062346 L67.7894777,48.9062346 L67.7894777,27.2745903 L36.1052641,27.2745903 Z" id="Cells"></path>
+                        <polygon id="Line" points="1.34615385 3.35113484 2.14263611 1.4 35 24.6488652 34.2035177 26.6"></polygon>
+                        <polygon id="Line" transform="translate(18.173077, 14.000000) scale(1, -1) translate(-18.173077, -14.000000) " points="1.34615385 3.35113484 2.14263611 1.4 35 24.6488652 34.2035177 26.6"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,5 +1,5 @@
 /* ---- reset ---- */
-
+@import url('https://fonts.googleapis.com/css?family=Lato');
 html {
   box-sizing: border-box;
 }
@@ -10,6 +10,15 @@ html {
 body {
   margin: 0;
   padding: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+ul {
+  list-style-type: none;  
+}
+
+li a {
+  text-decoration: none;
 }
 
 
@@ -20,7 +29,7 @@ body {
 
 
 .container {
-  margin: 0 20px;
+  margin: 0 40px;
 }
 
 .section {
@@ -28,12 +37,140 @@ body {
   padding-top: 20px;
 }
 
-@media (min-width: 768px) {
-  .container {
-    max-width: 728px;
-    margin: 0 auto;
-  }
+
+
+/*-----nav bar ---*/
+
+.nav-bar {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  background: white;
+  top: 0;
+  margin-bottom: 50px;
+  width: 100%;
+  height: 100px;
 }
+
+.nav-bar ul {
+  display: flex;  
+}
+
+.nav-bar li {
+  margin-right: 20px;
+}
+
+.bussines, .people {
+  display: none;
+}
+
+.cta {
+  background: #11b198;
+  width: 100px;
+  height: 50px;
+  border: none;
+  color: aliceblue;
+  border-radius: 8px 8px 8px 8px;
+  margin-top: 20px;
+}
+
+#features {
+  height: 50%;
+  display: grid;
+  grid-template-areas: "titutlo titulo titulo titulo"
+  "standard standard premium premium" 
+  "left right izq right1"
+}
+
+
+
+#comments {
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas: "h2 h2 h2"
+                       "jack mary nuria"
+                       "button button button";
+  justify-items: center;
+}
+
+#comments h2 {
+  grid-area: h2;
+  margin-bottom: 70px;
+}
+
+.jack {
+  grid-area: jack;  
+}
+
+.mary {
+  grid-area: mary;
+}
+.nuria {
+  grid-area: nuria;
+}
+#comments button {
+  grid-area: button;
+}
+
+.names {
+  color: #11b198;
+}
+
+.city {
+  color: black;
+}
+
+.say {
+  color: grey;
+}
+
+#header{
+  margin-left:50px;
+  margin-top: 100px;
+  display:grid;
+  grid-template-columns: 30% 70%;
+  grid-template-rows: auto auto auto;
+  grid-template-areas: "tittle image"
+                       "text image"
+                       "button image";
+                       
+ }
+ .tittle{
+  font-family: 'lato';
+  grid-area: tittle;
+  text-align:center;
+ }
+ 
+ .text{
+  font-size:20px;
+  font-family:'lato';
+  grid-area:text;
+  text-align: center;
+ }
+ .cta{
+    color:white;
+    background-color:#1BCEB1;
+    border:none;
+    grid-area:button;
+    justify-self: center;
+    align-self: center;
+    width:150px;
+    height: 50px;
+ }
+ 
+ .imagen{
+    grid-area:image;
+    justify-self: end;
+ }
+
+
+
+
+
+
 
 /* ---- header ---- */
 
